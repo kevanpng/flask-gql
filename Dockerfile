@@ -1,5 +1,5 @@
 # this dockerfile is used for product deployments
-FROM python:3.7-alpine
+FROM python:3.6-alpine
 LABEL maintainer "Timothy Ko <tk2@illinois.edu>"
 
 COPY Pipfile Pipfile.lock ./
